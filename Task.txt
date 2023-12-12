@@ -1,0 +1,25 @@
+
+Task 1: Assuming we have 5rows, each row contains 10 buttons. Thus from 0 - 9. and 1 susbmit button
+A user has to select at least one number from each row to form a bet. 
+if the user makes this selection row1 = [3,2,4,5,6] row2 = [1,2,8,9] row3 = [2,6,5,4,8]
+
+1. create the rows and buttons respectively.
+2. Calculate the number of bets the user has.
+3. Output to the console the user selections, and the total number of bet on click on the submit button
+
+Task 2. Store the selected buttons text into an array. In this case, the position of the array matters so becareful. Note that the selected text can be added and removed from the array.
+
+
+Task 3. Given this as the user selection [[2,1,5,6,7],[1,7,3,45],[6,2,4,5,6], [5,5,5,7,0], [6,3,4,3,3]] representing each row.
+and a machine draw number [1,5,2,7,6]. 
+
+Compare the machine draw number and the user selections, return win or lost if the user selections match that of the machine draw number.
+
+NB: machine draw number represents a row each for the user selections i.e. [row1, row2, row3, row4, row5]
+
+
+
+Task 4. 
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9 
+eg. isStreak ----> 7,8,0,9,1 || 9,0,1,2,3
+    isNotStreak ----> 2,3,6,5,7 || 0,2,8,7,9
